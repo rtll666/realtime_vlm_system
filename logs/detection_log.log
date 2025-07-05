@@ -1,0 +1,656 @@
+2025-07-05 13:02:51,762 - utils.logger - INFO - 成功加载YOLO模型: C:\Users\Jero\Desktop\Code\ultralytics-main\runs\detect\train14\weights\best.pt
+2025-07-05 13:02:51,980 - utils.logger - INFO - Qwen客户端初始化成功
+2025-07-05 13:02:51,981 - utils.logger - INFO - 正在初始化应用程序...
+2025-07-05 13:02:54,352 - utils.logger - INFO - 摄像头初始化成功 - 分辨率: 640x480
+2025-07-05 13:02:54,353 - utils.logger - INFO - Qwen工作线程开始运行
+2025-07-05 13:02:54,353 - utils.logger - INFO - Qwen分析工作线程已启动
+2025-07-05 13:02:54,354 - utils.logger - INFO - 摄像头信息: {'width': 640, 'height': 480, 'fps': 30.00003000003, 'backend': 'DSHOW'}
+2025-07-05 13:02:54,354 - utils.logger - INFO - 模型信息: {'model_path': 'C:\\Users\\Jero\\Desktop\\Code\\ultralytics-main\\runs\\detect\\train14\\weights\\best.pt', 'image_size': 640, 'conf_threshold': 0.3, 'model_names': {0: 'medium', 1: 'good', 2: 'bad'}}
+2025-07-05 13:02:54,354 - utils.logger - INFO - 配置参数: 分析间隔=10s
+2025-07-05 13:02:54,355 - utils.logger - INFO - 应用程序初始化完成
+2025-07-05 13:02:54,355 - utils.logger - INFO - 开始实时检测，按 'q' 退出...
+2025-07-05 13:02:55,175 - utils.logger - INFO - 已提交第0帧进行后台分析
+2025-07-05 13:02:55,175 - utils.logger - INFO - 开始第1次分析...
+2025-07-05 13:02:59,068 - utils.logger - INFO - 分析完成 (耗时: 3.89s): 刀头磨损状态较为严重，检测到的铁屑中bad和medium类别较多，占比超过64%。
+2025-07-05 13:03:05,176 - utils.logger - INFO - 已提交第279帧进行后台分析
+2025-07-05 13:03:05,176 - utils.logger - INFO - 开始第2次分析...
+2025-07-05 13:03:07,831 - utils.logger - INFO - 分析完成 (耗时: 2.65s): 刀头磨损状态较为严重，检测到的铁屑中有较多中等（medium）和较差（bad）状态的铁屑。
+2025-07-05 13:03:15,214 - utils.logger - INFO - 已提交第448帧进行后台分析
+2025-07-05 13:03:15,214 - utils.logger - INFO - 开始第3次分析...
+2025-07-05 13:03:18,466 - utils.logger - INFO - 分析完成 (耗时: 3.25s): 刀头磨损状态较为严重，检测到的铁屑中bad和medium类别较多，占比高达75%。
+2025-07-05 13:03:25,257 - utils.logger - INFO - 已提交第617帧进行后台分析
+2025-07-05 13:03:25,257 - utils.logger - INFO - 开始第4次分析...
+2025-07-05 13:03:28,503 - utils.logger - INFO - 分析完成 (耗时: 3.25s): 刀头磨损状态良好，检测到的铁屑大部分为good级别。
+2025-07-05 13:03:35,278 - utils.logger - INFO - 已提交第815帧进行后台分析
+2025-07-05 13:03:35,278 - utils.logger - INFO - 开始第5次分析...
+2025-07-05 13:03:37,912 - utils.logger - INFO - 分析完成 (耗时: 2.63s): 刀头磨损状态较为严重，检测到的铁屑中medium和bad类别较多，表明需要及时检查和维护。
+2025-07-05 13:03:45,305 - utils.logger - INFO - 已提交第984帧进行后台分析
+2025-07-05 13:03:45,306 - utils.logger - INFO - 开始第6次分析...
+2025-07-05 13:03:48,841 - utils.logger - INFO - 分析完成 (耗时: 3.53s): 刀头磨损状态较为严重，检测到较多的bad和medium类铁屑，表明需要及时维护或更换。
+2025-07-05 13:03:55,358 - utils.logger - INFO - 已提交第1153帧进行后台分析
+2025-07-05 13:03:55,358 - utils.logger - INFO - 开始第7次分析...
+2025-07-05 13:04:01,815 - utils.logger - INFO - 分析完成 (耗时: 6.46s): 刀头磨损状态较为严重，检测到的铁屑中bad和medium类别较多，表明需要及时检查和维护。
+2025-07-05 13:04:05,396 - utils.logger - INFO - 已提交第1322帧进行后台分析
+2025-07-05 13:04:05,396 - utils.logger - INFO - 开始第8次分析...
+2025-07-05 13:04:08,755 - utils.logger - INFO - 分析完成 (耗时: 3.36s): 刀头磨损状态较为严重，检测到的铁屑中bad和medium类别较多，占比超过67%。
+2025-07-05 13:04:15,440 - utils.logger - INFO - 已提交第1491帧进行后台分析
+2025-07-05 13:04:15,440 - utils.logger - INFO - 开始第9次分析...
+2025-07-05 13:04:21,908 - utils.logger - INFO - 分析完成 (耗时: 6.47s): 刀头磨损状态良好，检测到的铁屑大部分为good级别，表明当前刀具状态较为理想。
+2025-07-05 13:04:25,469 - utils.logger - INFO - 已提交第1660帧进行后台分析
+2025-07-05 13:04:25,469 - utils.logger - INFO - 开始第10次分析...
+2025-07-05 13:04:28,977 - utils.logger - INFO - 分析完成 (耗时: 3.51s): 刀头磨损状态较为良好，检测到的铁屑中大部分为“good”类别，表明当前切削性能稳定。
+2025-07-05 13:04:35,521 - utils.logger - INFO - 已提交第1829帧进行后台分析
+2025-07-05 13:04:35,521 - utils.logger - INFO - 开始第11次分析...
+2025-07-05 13:04:38,724 - utils.logger - INFO - 分析完成 (耗时: 3.20s): 刀头磨损状态较为严重，检测到的铁屑中bad和medium类别较多，表明需要及时检查和维护。
+2025-07-05 13:04:45,551 - utils.logger - INFO - 已提交第1989帧进行后台分析
+2025-07-05 13:04:45,552 - utils.logger - INFO - 开始第12次分析...
+2025-07-05 13:04:48,246 - utils.logger - INFO - 分析完成 (耗时: 2.69s): 刀头磨损状态较为严重，检测到的铁屑中bad和medium类别较多，占比超过60%。
+2025-07-05 13:04:50,278 - utils.logger - INFO - 检测到 'q' 键按下，正在退出...
+2025-07-05 13:04:50,278 - utils.logger - INFO - 正在清理资源...
+2025-07-05 13:04:51,250 - utils.logger - INFO - Qwen工作线程已停止
+2025-07-05 13:04:51,250 - utils.logger - INFO - Qwen分析器已停止
+2025-07-05 13:04:51,635 - utils.logger - INFO - 摄像头资源已释放
+2025-07-05 13:04:51,656 - utils.logger - INFO - === 性能总结 ===
+2025-07-05 13:04:51,656 - utils.logger - INFO - total_frames: 2066
+2025-07-05 13:04:51,656 - utils.logger - INFO - total_time: 119.67
+2025-07-05 13:04:51,656 - utils.logger - INFO - average_fps: 15.89
+2025-07-05 13:04:51,657 - utils.logger - INFO - average_frame_time: 0.06
+2025-07-05 13:04:51,657 - utils.logger - INFO - overall_fps: 17.26
+2025-07-05 13:04:51,657 - utils.logger - INFO - === 分析统计 ===
+2025-07-05 13:04:51,657 - utils.logger - INFO - total_analysis: 12
+2025-07-05 13:04:51,657 - utils.logger - INFO - is_analyzing: False
+2025-07-05 13:04:51,657 - utils.logger - INFO - queue_size: 0
+2025-07-05 13:04:51,657 - utils.logger - INFO - 所有资源已释放，程序结束
+2025-07-05 13:15:21,049 - utils.logger - INFO - 成功加载YOLO模型: C:\Users\Jero\Desktop\Code\ultralytics-main\runs\detect\train14\weights\best.pt
+2025-07-05 13:15:21,266 - utils.logger - INFO - Qwen客户端初始化成功
+2025-07-05 13:15:21,267 - utils.logger - INFO - 正在初始化应用程序...
+2025-07-05 13:15:23,668 - utils.logger - INFO - 摄像头初始化成功 - 分辨率: 640x480
+2025-07-05 13:15:23,670 - utils.logger - INFO - Qwen工作线程开始运行
+2025-07-05 13:15:23,670 - utils.logger - INFO - Qwen分析工作线程已启动
+2025-07-05 13:15:23,670 - utils.logger - INFO - 摄像头信息: {'width': 640, 'height': 480, 'fps': 30.00003000003, 'backend': 'DSHOW'}
+2025-07-05 13:15:23,671 - utils.logger - INFO - 模型信息: {'model_path': 'C:\\Users\\Jero\\Desktop\\Code\\ultralytics-main\\runs\\detect\\train14\\weights\\best.pt', 'image_size': 640, 'conf_threshold': 0.3, 'model_names': {0: 'medium', 1: 'good', 2: 'bad'}}
+2025-07-05 13:15:23,671 - utils.logger - INFO - 配置参数: 分析间隔=10s
+2025-07-05 13:15:23,671 - utils.logger - INFO - 应用程序初始化完成
+2025-07-05 13:15:23,671 - utils.logger - INFO - 开始实时检测，按 'q' 退出...
+2025-07-05 13:15:24,534 - utils.logger - INFO - 已提交第0帧进行后台分析
+2025-07-05 13:15:24,534 - utils.logger - INFO - 开始第1次分析...
+2025-07-05 13:15:36,016 - utils.logger - INFO - 分析完成 (耗时: 11.48s): 刀头磨损状态较为严重，检测到的铁屑中有较多比例的“bad”和“medium”类别，表明需要及时检查和维护。
+2025-07-05 13:15:36,025 - utils.logger - INFO - 已提交第341帧进行后台分析
+2025-07-05 13:15:36,025 - utils.logger - INFO - 开始第2次分析...
+2025-07-05 13:15:38,933 - utils.logger - INFO - 分析完成 (耗时: 2.91s): 刀头磨损状态较为严重，检测到的铁屑中有5个被评为bad，表明需要及时检查和维护。
+2025-07-05 13:15:46,036 - utils.logger - INFO - 已提交第642帧进行后台分析
+2025-07-05 13:15:46,036 - utils.logger - INFO - 开始第3次分析...
+2025-07-05 13:15:50,796 - utils.logger - INFO - 分析完成 (耗时: 4.76s): 刀头磨损状态较为严重，检测到的铁屑中有较高比例的中等（medium）和较差（bad）状态，表明需要及时维护或更换。
+2025-07-05 13:15:56,071 - utils.logger - INFO - 已提交第944帧进行后台分析
+2025-07-05 13:15:56,071 - utils.logger - INFO - 开始第4次分析...
+2025-07-05 13:15:59,732 - utils.logger - INFO - 分析完成 (耗时: 3.66s): 刀头磨损状态较为严重，检测到的铁屑中有较高比例的中等（medium）和较差（bad）状态。
+2025-07-05 13:16:06,090 - utils.logger - INFO - 已提交第1245帧进行后台分析
+2025-07-05 13:16:06,090 - utils.logger - INFO - 开始第5次分析...
+2025-07-05 13:16:10,807 - utils.logger - INFO - 分析完成 (耗时: 4.72s): 刀头磨损状态较为严重，检测到的铁屑中bad和medium类别占比高，表明需要及时维护或更换刀头。
+2025-07-05 13:16:16,106 - utils.logger - INFO - 已提交第1546帧进行后台分析
+2025-07-05 13:16:16,106 - utils.logger - INFO - 开始第6次分析...
+2025-07-05 13:16:19,292 - utils.logger - INFO - 分析完成 (耗时: 3.19s): 刀头磨损状态较为严重，检测到的铁屑中bad和medium类别较多，占比超过一半。
+2025-07-05 13:16:26,164 - utils.logger - INFO - 已提交第1750帧进行后台分析
+2025-07-05 13:16:26,164 - utils.logger - INFO - 开始第7次分析...
+2025-07-05 13:16:30,025 - utils.logger - INFO - 分析完成 (耗时: 3.86s): 刀头磨损状态较为严重，检测到的铁屑中bad和medium类别较多，占比超过65%。
+2025-07-05 13:16:36,199 - utils.logger - INFO - 已提交第1925帧进行后台分析
+2025-07-05 13:16:36,199 - utils.logger - INFO - 开始第8次分析...
+2025-07-05 13:16:40,394 - utils.logger - INFO - 分析完成 (耗时: 4.19s): 刀头磨损状态较为严重，检测到的铁屑中有9个被评为“bad”，表明需要及时检查和维护。
+2025-07-05 13:16:46,263 - utils.logger - INFO - 已提交第2084帧进行后台分析
+2025-07-05 13:16:46,263 - utils.logger - INFO - 开始第9次分析...
+2025-07-05 13:16:47,601 - utils.logger - INFO - 检测到 'q' 键按下，正在退出...
+2025-07-05 13:16:47,602 - utils.logger - INFO - 正在清理资源...
+2025-07-05 13:16:50,511 - utils.logger - INFO - 分析完成 (耗时: 4.25s): 刀头磨损状态较为严重，检测到的铁屑中有较高比例的bad和medium类别，表明需要及时检查和维护。
+2025-07-05 13:16:50,513 - utils.logger - INFO - Qwen工作线程已停止
+2025-07-05 13:16:50,513 - utils.logger - INFO - Qwen分析器已停止
+2025-07-05 13:16:50,894 - utils.logger - INFO - 摄像头资源已释放
+2025-07-05 13:16:50,920 - utils.logger - INFO - === 性能总结 ===
+2025-07-05 13:16:50,920 - utils.logger - INFO - total_frames: 2105
+2025-07-05 13:16:50,920 - utils.logger - INFO - total_time: 89.65
+2025-07-05 13:16:50,920 - utils.logger - INFO - average_fps: 15.72
+2025-07-05 13:16:50,920 - utils.logger - INFO - average_frame_time: 0.06
+2025-07-05 13:16:50,921 - utils.logger - INFO - overall_fps: 23.48
+2025-07-05 13:16:50,921 - utils.logger - INFO - === 分析统计 ===
+2025-07-05 13:16:50,921 - utils.logger - INFO - total_analysis: 9
+2025-07-05 13:16:50,921 - utils.logger - INFO - is_analyzing: False
+2025-07-05 13:16:50,921 - utils.logger - INFO - queue_size: 0
+2025-07-05 13:16:50,921 - utils.logger - INFO - 所有资源已释放，程序结束
+2025-07-05 13:18:42,454 - utils.logger - INFO - 成功加载YOLO模型: C:\Users\Jero\Desktop\Code\ultralytics-main\runs\detect\train14\weights\best.pt
+2025-07-05 13:18:42,704 - utils.logger - INFO - Qwen客户端初始化成功
+2025-07-05 13:18:42,705 - utils.logger - INFO - 正在初始化应用程序...
+2025-07-05 13:18:43,946 - utils.logger - INFO - 摄像头初始化成功 - 分辨率: 640x480
+2025-07-05 13:18:43,947 - utils.logger - INFO - Qwen工作线程开始运行
+2025-07-05 13:18:43,947 - utils.logger - INFO - Qwen分析工作线程已启动
+2025-07-05 13:18:43,948 - utils.logger - INFO - 摄像头信息: {'width': 640, 'height': 480, 'fps': 30.00003000003, 'backend': 'DSHOW'}
+2025-07-05 13:18:43,948 - utils.logger - INFO - 模型信息: {'model_path': 'C:\\Users\\Jero\\Desktop\\Code\\ultralytics-main\\runs\\detect\\train14\\weights\\best.pt', 'image_size': 640, 'conf_threshold': 0.3, 'model_names': {0: 'medium', 1: 'good', 2: 'bad'}}
+2025-07-05 13:18:43,948 - utils.logger - INFO - 配置参数: 分析间隔=10s
+2025-07-05 13:18:43,948 - utils.logger - INFO - 应用程序初始化完成
+2025-07-05 13:18:43,948 - utils.logger - INFO - 开始实时检测，按 'q' 退出...
+2025-07-05 13:18:45,124 - utils.logger - INFO - 已提交第0帧进行后台分析
+2025-07-05 13:18:45,124 - utils.logger - INFO - 开始第1次分析...
+2025-07-05 13:18:51,240 - utils.logger - INFO - 分析完成 (耗时: 6.12s): 刀头磨损状态良好，检测到的铁屑绝大多数为“good”类别，表明切削性能稳定。
+2025-07-05 13:18:55,156 - utils.logger - INFO - 已提交第166帧进行后台分析
+2025-07-05 13:18:55,156 - utils.logger - INFO - 开始第2次分析...
+2025-07-05 13:18:59,516 - utils.logger - INFO - 分析完成 (耗时: 4.36s): 刀头磨损状态良好，检测到的14个铁屑中绝大多数（13个）为good状态，仅1个为medium状态。
+2025-07-05 13:19:05,209 - utils.logger - INFO - 已提交第333帧进行后台分析
+2025-07-05 13:19:05,209 - utils.logger - INFO - 开始第3次分析...
+2025-07-05 13:19:09,102 - utils.logger - INFO - 分析完成 (耗时: 3.89s): 刀头磨损状态良好，检测到的铁屑大部分为“good”级别，表明切削性能较为稳定。
+2025-07-05 13:19:15,256 - utils.logger - INFO - 已提交第500帧进行后台分析
+2025-07-05 13:19:15,256 - utils.logger - INFO - 开始第4次分析...
+2025-07-05 13:19:17,924 - utils.logger - INFO - 分析完成 (耗时: 2.67s): 刀头磨损状态良好，检测到的铁屑中大部分（20个）为“good”级别，表明切削性能较为稳定。
+2025-07-05 13:19:25,309 - utils.logger - INFO - 已提交第667帧进行后台分析
+2025-07-05 13:19:25,309 - utils.logger - INFO - 开始第5次分析...
+2025-07-05 13:19:29,338 - utils.logger - INFO - 分析完成 (耗时: 4.03s): 刀头磨损状态较为良好，检测到的铁屑中大部分为“good”和“medium”类别，表明当前切削性能尚可。
+2025-07-05 13:19:35,357 - utils.logger - INFO - 已提交第834帧进行后台分析
+2025-07-05 13:19:35,357 - utils.logger - INFO - 开始第6次分析...
+2025-07-05 13:19:43,121 - utils.logger - INFO - 分析完成 (耗时: 7.76s): 刀头磨损状态较为稳定，检测到的铁屑多数为中等（medium）和良好（good）状态，表明当前刀具性能尚可。
+2025-07-05 13:19:45,407 - utils.logger - INFO - 已提交第1001帧进行后台分析
+2025-07-05 13:19:45,407 - utils.logger - INFO - 开始第7次分析...
+2025-07-05 13:19:51,356 - utils.logger - INFO - 分析完成 (耗时: 5.95s): 刀头磨损状态较为稳定，检测到的铁屑多数为中等（medium）和良好（good）状态，表明当前刀具性能尚可。
+2025-07-05 13:19:55,455 - utils.logger - INFO - 已提交第1168帧进行后台分析
+2025-07-05 13:19:55,456 - utils.logger - INFO - 开始第8次分析...
+2025-07-05 13:20:01,984 - utils.logger - INFO - 分析完成 (耗时: 6.53s): 刀头磨损状态较为稳定，检测到的铁屑多数为中等（medium）和良好（good）状态，表明当前刀具性能尚可。
+2025-07-05 13:20:05,490 - utils.logger - INFO - 已提交第1335帧进行后台分析
+2025-07-05 13:20:05,490 - utils.logger - INFO - 开始第9次分析...
+2025-07-05 13:20:11,291 - utils.logger - INFO - 分析完成 (耗时: 5.80s): 刀头磨损状态较为稳定，多数铁屑质量为中等和良好，表明当前刀具性能尚可。
+2025-07-05 13:20:15,492 - utils.logger - INFO - 已提交第1501帧进行后台分析
+2025-07-05 13:20:15,492 - utils.logger - INFO - 开始第10次分析...
+2025-07-05 13:20:22,386 - utils.logger - INFO - 分析完成 (耗时: 6.89s): 刀头磨损状态较为严重，检测到的铁屑中medium和bad类别占比相对较高，表明需要及时检查和维护。
+2025-07-05 13:20:25,525 - utils.logger - INFO - 已提交第1668帧进行后台分析
+2025-07-05 13:20:25,526 - utils.logger - INFO - 开始第11次分析...
+2025-07-05 13:20:32,488 - utils.logger - INFO - 分析完成 (耗时: 6.96s): 刀头磨损状态较为严重，检测到的铁屑中bad和medium类别较多，占比超过67%。
+2025-07-05 13:20:35,529 - utils.logger - INFO - 已提交第1834帧进行后台分析
+2025-07-05 13:20:35,529 - utils.logger - INFO - 开始第12次分析...
+2025-07-05 13:20:40,150 - utils.logger - INFO - 检测到 'q' 键按下，正在退出...
+2025-07-05 13:20:40,151 - utils.logger - INFO - 正在清理资源...
+2025-07-05 13:20:41,806 - utils.logger - INFO - 分析完成 (耗时: 6.28s): 刀头磨损状态较为严重，检测到的铁屑中bad和medium类别较多，占比超过67.6%。
+2025-07-05 13:20:41,806 - utils.logger - INFO - Qwen工作线程已停止
+2025-07-05 13:20:41,807 - utils.logger - INFO - Qwen分析器已停止
+2025-07-05 13:20:42,068 - utils.logger - INFO - 摄像头资源已释放
+2025-07-05 13:20:42,094 - utils.logger - INFO - === 性能总结 ===
+2025-07-05 13:20:42,095 - utils.logger - INFO - total_frames: 1912
+2025-07-05 13:20:42,095 - utils.logger - INFO - total_time: 119.39
+2025-07-05 13:20:42,095 - utils.logger - INFO - average_fps: 17.56
+2025-07-05 13:20:42,096 - utils.logger - INFO - average_frame_time: 0.06
+2025-07-05 13:20:42,096 - utils.logger - INFO - overall_fps: 16.01
+2025-07-05 13:20:42,096 - utils.logger - INFO - === 分析统计 ===
+2025-07-05 13:20:42,096 - utils.logger - INFO - total_analysis: 12
+2025-07-05 13:20:42,096 - utils.logger - INFO - is_analyzing: False
+2025-07-05 13:20:42,096 - utils.logger - INFO - queue_size: 0
+2025-07-05 13:20:42,097 - utils.logger - INFO - 所有资源已释放，程序结束
+2025-07-05 13:27:51,061 - utils.logger - INFO - 成功加载YOLO模型: C:\Users\Jero\Desktop\Code\ultralytics-main\runs\detect\train14\weights\best.pt
+2025-07-05 13:27:51,281 - utils.logger - INFO - Qwen客户端初始化成功
+2025-07-05 13:27:51,282 - utils.logger - INFO - 正在初始化应用程序...
+2025-07-05 13:27:52,468 - utils.logger - INFO - 摄像头初始化成功 - 分辨率: 640x480
+2025-07-05 13:27:52,468 - utils.logger - INFO - Qwen工作线程开始运行
+2025-07-05 13:27:52,468 - utils.logger - INFO - Qwen分析工作线程已启动
+2025-07-05 13:27:52,470 - utils.logger - INFO - 摄像头信息: {'width': 640, 'height': 480, 'fps': 30.00003000003, 'backend': 'DSHOW'}
+2025-07-05 13:27:52,470 - utils.logger - INFO - 模型信息: {'model_path': 'C:\\Users\\Jero\\Desktop\\Code\\ultralytics-main\\runs\\detect\\train14\\weights\\best.pt', 'image_size': 640, 'conf_threshold': 0.3, 'model_names': {0: 'medium', 1: 'good', 2: 'bad'}}
+2025-07-05 13:27:52,470 - utils.logger - INFO - 配置参数: 分析间隔=10s
+2025-07-05 13:27:52,470 - utils.logger - INFO - 应用程序初始化完成
+2025-07-05 13:27:52,470 - utils.logger - INFO - 开始实时检测，按 'q' 退出...
+2025-07-05 13:27:55,537 - utils.logger - INFO - 已提交第38帧进行后台分析
+2025-07-05 13:27:55,537 - utils.logger - INFO - 开始第1次分析...
+2025-07-05 13:27:57,988 - utils.logger - INFO - 分析完成 (耗时: 2.45s): 刀头磨损状态不佳，检测到的铁屑质量为bad。
+2025-07-05 13:28:30,890 - utils.logger - INFO - 已提交第626帧进行后台分析
+2025-07-05 13:28:30,890 - utils.logger - INFO - 开始第2次分析...
+2025-07-05 13:28:33,767 - utils.logger - INFO - 分析完成 (耗时: 2.88s): 刀头磨损状态处于中等偏好的水平，检测到一个中等铁屑和一个良好铁屑。
+2025-07-05 13:28:53,551 - utils.logger - INFO - 检测到 'q' 键按下，正在退出...
+2025-07-05 13:28:53,552 - utils.logger - INFO - 正在清理资源...
+2025-07-05 13:28:53,828 - utils.logger - INFO - Qwen工作线程已停止
+2025-07-05 13:28:53,829 - utils.logger - INFO - Qwen分析器已停止
+2025-07-05 13:28:54,102 - utils.logger - INFO - 摄像头资源已释放
+2025-07-05 13:28:54,118 - utils.logger - INFO - === 性能总结 ===
+2025-07-05 13:28:54,118 - utils.logger - INFO - total_frames: 1004
+2025-07-05 13:28:54,118 - utils.logger - INFO - total_time: 62.84
+2025-07-05 13:28:54,118 - utils.logger - INFO - average_fps: 17.72
+2025-07-05 13:28:54,118 - utils.logger - INFO - average_frame_time: 0.06
+2025-07-05 13:28:54,118 - utils.logger - INFO - overall_fps: 15.98
+2025-07-05 13:28:54,118 - utils.logger - INFO - === 分析统计 ===
+2025-07-05 13:28:54,120 - utils.logger - INFO - total_analysis: 2
+2025-07-05 13:28:54,120 - utils.logger - INFO - is_analyzing: False
+2025-07-05 13:28:54,120 - utils.logger - INFO - queue_size: 0
+2025-07-05 13:28:54,120 - utils.logger - INFO - 所有资源已释放，程序结束
+2025-07-05 13:39:37,709 - utils.logger - INFO - 成功加载YOLO模型: C:\Users\Jero\Desktop\Code\ultralytics-main\runs\detect\train14\weights\best.pt
+2025-07-05 13:39:37,927 - utils.logger - INFO - Qwen客户端初始化成功
+2025-07-05 13:39:37,928 - utils.logger - INFO - 正在初始化应用程序...
+2025-07-05 13:39:39,122 - utils.logger - INFO - 摄像头初始化成功 - 分辨率: 640x480
+2025-07-05 13:39:39,123 - utils.logger - INFO - Qwen工作线程开始运行
+2025-07-05 13:39:39,123 - utils.logger - INFO - Qwen分析工作线程已启动
+2025-07-05 13:39:39,124 - utils.logger - INFO - 摄像头信息: {'width': 640, 'height': 480, 'fps': 30.00003000003, 'backend': 'DSHOW'}
+2025-07-05 13:39:39,124 - utils.logger - INFO - 模型信息: {'model_path': 'C:\\Users\\Jero\\Desktop\\Code\\ultralytics-main\\runs\\detect\\train14\\weights\\best.pt', 'image_size': 640, 'conf_threshold': 0.3, 'model_names': {0: 'medium', 1: 'good', 2: 'bad'}}
+2025-07-05 13:39:39,124 - utils.logger - INFO - 配置参数: 分析间隔=10s
+2025-07-05 13:39:39,124 - utils.logger - INFO - 应用程序初始化完成
+2025-07-05 13:39:39,124 - utils.logger - INFO - 开始实时检测，按 'q' 退出...
+2025-07-05 13:39:49,493 - utils.logger - INFO - 已提交第157帧进行后台分析
+2025-07-05 13:39:49,493 - utils.logger - INFO - 开始第1次分析...
+2025-07-05 13:39:52,140 - utils.logger - INFO - 分析完成 (耗时: 2.65s): 刀头磨损状态不佳，检测到1个铁屑被分类为“bad”。
+2025-07-05 13:40:03,757 - utils.logger - INFO - 已提交第395帧进行后台分析
+2025-07-05 13:40:03,757 - utils.logger - INFO - 开始第2次分析...
+2025-07-05 13:40:06,319 - utils.logger - INFO - 分析完成 (耗时: 2.56s): 刀头磨损状态不佳，检测到1个铁屑被分类为“bad”。
+2025-07-05 13:40:09,103 - utils.logger - INFO - 检测到 'q' 键按下，正在退出...
+2025-07-05 13:40:09,103 - utils.logger - INFO - 正在清理资源...
+2025-07-05 13:40:09,329 - utils.logger - INFO - Qwen工作线程已停止
+2025-07-05 13:40:09,330 - utils.logger - INFO - Qwen分析器已停止
+2025-07-05 13:40:09,596 - utils.logger - INFO - 摄像头资源已释放
+2025-07-05 13:40:09,623 - utils.logger - INFO - === 性能总结 ===
+2025-07-05 13:40:09,623 - utils.logger - INFO - total_frames: 485
+2025-07-05 13:40:09,623 - utils.logger - INFO - total_time: 31.69
+2025-07-05 13:40:09,623 - utils.logger - INFO - average_fps: 17.62
+2025-07-05 13:40:09,623 - utils.logger - INFO - average_frame_time: 0.06
+2025-07-05 13:40:09,623 - utils.logger - INFO - overall_fps: 15.30
+2025-07-05 13:40:09,623 - utils.logger - INFO - === 分析统计 ===
+2025-07-05 13:40:09,623 - utils.logger - INFO - total_analysis: 2
+2025-07-05 13:40:09,625 - utils.logger - INFO - is_analyzing: False
+2025-07-05 13:40:09,625 - utils.logger - INFO - queue_size: 0
+2025-07-05 13:40:09,625 - utils.logger - INFO - 所有资源已释放，程序结束
+2025-07-05 13:50:37,419 - utils.logger - INFO - 成功加载YOLO模型: C:\Users\Jero\Desktop\Code\ultralytics-main\runs\detect\train14\weights\best.pt
+2025-07-05 13:50:37,634 - utils.logger - INFO - Qwen客户端初始化成功
+2025-07-05 13:50:37,634 - utils.logger - INFO - 正在初始化应用程序...
+2025-07-05 13:50:38,801 - utils.logger - INFO - 摄像头初始化成功 - 分辨率: 640x480
+2025-07-05 13:50:38,802 - utils.logger - INFO - Qwen工作线程开始运行
+2025-07-05 13:50:38,802 - utils.logger - INFO - Qwen分析工作线程已启动
+2025-07-05 13:50:38,803 - utils.logger - INFO - 摄像头信息: {'width': 640, 'height': 480, 'fps': 30.00003000003, 'backend': 'DSHOW'}
+2025-07-05 13:50:38,803 - utils.logger - INFO - 模型信息: {'model_path': 'C:\\Users\\Jero\\Desktop\\Code\\ultralytics-main\\runs\\detect\\train14\\weights\\best.pt', 'image_size': 640, 'conf_threshold': 0.3, 'model_names': {0: 'medium', 1: 'good', 2: 'bad'}}
+2025-07-05 13:50:38,803 - utils.logger - INFO - 配置参数: 分析间隔=10s
+2025-07-05 13:50:38,804 - utils.logger - INFO - 应用程序初始化完成
+2025-07-05 13:50:38,804 - utils.logger - INFO - 开始实时检测，按 'q' 退出...
+2025-07-05 13:50:39,607 - utils.logger - ERROR - 主循环异常: 'DisplayManager' object has no attribute '_draw_fps'
+2025-07-05 13:50:39,608 - utils.logger - INFO - 正在清理资源...
+2025-07-05 13:50:39,803 - utils.logger - INFO - Qwen工作线程已停止
+2025-07-05 13:50:39,803 - utils.logger - INFO - Qwen分析器已停止
+2025-07-05 13:50:40,061 - utils.logger - INFO - 摄像头资源已释放
+2025-07-05 13:53:11,550 - utils.logger - INFO - 成功加载YOLO模型: C:\Users\Jero\Desktop\Code\ultralytics-main\runs\detect\train14\weights\best.pt
+2025-07-05 13:53:11,770 - utils.logger - INFO - Qwen客户端初始化成功
+2025-07-05 13:53:11,770 - utils.logger - INFO - 正在初始化应用程序...
+2025-07-05 13:53:12,944 - utils.logger - INFO - 摄像头初始化成功 - 分辨率: 640x480
+2025-07-05 13:53:12,945 - utils.logger - INFO - Qwen工作线程开始运行
+2025-07-05 13:53:12,945 - utils.logger - INFO - Qwen分析工作线程已启动
+2025-07-05 13:53:12,945 - utils.logger - INFO - 摄像头信息: {'width': 640, 'height': 480, 'fps': 30.00003000003, 'backend': 'DSHOW'}
+2025-07-05 13:53:12,946 - utils.logger - INFO - 模型信息: {'model_path': 'C:\\Users\\Jero\\Desktop\\Code\\ultralytics-main\\runs\\detect\\train14\\weights\\best.pt', 'image_size': 640, 'conf_threshold': 0.3, 'model_names': {0: 'medium', 1: 'good', 2: 'bad'}}
+2025-07-05 13:53:12,946 - utils.logger - INFO - 配置参数: 分析间隔=10s
+2025-07-05 13:53:12,946 - utils.logger - INFO - 应用程序初始化完成
+2025-07-05 13:53:12,946 - utils.logger - INFO - 开始实时检测，按 'q' 退出...
+2025-07-05 13:53:13,685 - utils.logger - ERROR - 主循环异常: 'DisplayManager' object has no attribute '_draw_fps_simple'
+2025-07-05 13:53:13,685 - utils.logger - INFO - 正在清理资源...
+2025-07-05 13:53:13,945 - utils.logger - INFO - Qwen工作线程已停止
+2025-07-05 13:53:13,946 - utils.logger - INFO - Qwen分析器已停止
+2025-07-05 13:53:14,205 - utils.logger - INFO - 摄像头资源已释放
+2025-07-05 13:53:14,218 - utils.logger - INFO - === 性能总结 ===
+2025-07-05 13:53:14,219 - utils.logger - INFO - total_frames: 1
+2025-07-05 13:53:14,219 - utils.logger - INFO - total_time: 2.45
+2025-07-05 13:53:14,219 - utils.logger - INFO - average_fps: 1.35
+2025-07-05 13:53:14,220 - utils.logger - INFO - average_frame_time: 0.74
+2025-07-05 13:53:14,220 - utils.logger - INFO - overall_fps: 0.41
+2025-07-05 13:53:14,220 - utils.logger - INFO - === 分析统计 ===
+2025-07-05 13:53:14,220 - utils.logger - INFO - total_analysis: 0
+2025-07-05 13:53:14,220 - utils.logger - INFO - is_analyzing: False
+2025-07-05 13:53:14,221 - utils.logger - INFO - queue_size: 0
+2025-07-05 13:53:14,221 - utils.logger - INFO - 所有资源已释放，程序结束
+2025-07-05 13:54:06,025 - utils.logger - INFO - 成功加载YOLO模型: C:\Users\Jero\Desktop\Code\ultralytics-main\runs\detect\train14\weights\best.pt
+2025-07-05 13:54:06,241 - utils.logger - INFO - Qwen客户端初始化成功
+2025-07-05 13:54:06,242 - utils.logger - INFO - 正在初始化应用程序...
+2025-07-05 13:54:07,412 - utils.logger - INFO - 摄像头初始化成功 - 分辨率: 640x480
+2025-07-05 13:54:07,413 - utils.logger - INFO - Qwen工作线程开始运行
+2025-07-05 13:54:07,413 - utils.logger - INFO - Qwen分析工作线程已启动
+2025-07-05 13:54:07,413 - utils.logger - INFO - 摄像头信息: {'width': 640, 'height': 480, 'fps': 30.00003000003, 'backend': 'DSHOW'}
+2025-07-05 13:54:07,414 - utils.logger - INFO - 模型信息: {'model_path': 'C:\\Users\\Jero\\Desktop\\Code\\ultralytics-main\\runs\\detect\\train14\\weights\\best.pt', 'image_size': 640, 'conf_threshold': 0.3, 'model_names': {0: 'medium', 1: 'good', 2: 'bad'}}
+2025-07-05 13:54:07,414 - utils.logger - INFO - 配置参数: 分析间隔=10s
+2025-07-05 13:54:07,414 - utils.logger - INFO - 应用程序初始化完成
+2025-07-05 13:54:07,414 - utils.logger - INFO - 开始实时检测，按 'q' 退出...
+2025-07-05 13:54:08,129 - utils.logger - ERROR - 主循环异常: 'DisplayManager' object has no attribute '_draw_fps_simple'
+2025-07-05 13:54:08,130 - utils.logger - INFO - 正在清理资源...
+2025-07-05 13:54:08,413 - utils.logger - INFO - Qwen工作线程已停止
+2025-07-05 13:54:08,414 - utils.logger - INFO - Qwen分析器已停止
+2025-07-05 13:54:08,671 - utils.logger - INFO - 摄像头资源已释放
+2025-07-05 13:54:08,683 - utils.logger - INFO - === 性能总结 ===
+2025-07-05 13:54:08,684 - utils.logger - INFO - total_frames: 1
+2025-07-05 13:54:08,684 - utils.logger - INFO - total_time: 2.44
+2025-07-05 13:54:08,684 - utils.logger - INFO - average_fps: 1.40
+2025-07-05 13:54:08,685 - utils.logger - INFO - average_frame_time: 0.71
+2025-07-05 13:54:08,685 - utils.logger - INFO - overall_fps: 0.41
+2025-07-05 13:54:08,685 - utils.logger - INFO - === 分析统计 ===
+2025-07-05 13:54:08,685 - utils.logger - INFO - total_analysis: 0
+2025-07-05 13:54:08,685 - utils.logger - INFO - is_analyzing: False
+2025-07-05 13:54:08,686 - utils.logger - INFO - queue_size: 0
+2025-07-05 13:54:08,686 - utils.logger - INFO - 所有资源已释放，程序结束
+2025-07-05 13:56:22,801 - utils.logger - INFO - 成功加载YOLO模型: C:\Users\Jero\Desktop\Code\ultralytics-main\runs\detect\train14\weights\best.pt
+2025-07-05 13:56:23,014 - utils.logger - INFO - Qwen客户端初始化成功
+2025-07-05 13:56:23,014 - utils.logger - INFO - 正在初始化应用程序...
+2025-07-05 13:56:24,191 - utils.logger - INFO - 摄像头初始化成功 - 分辨率: 640x480
+2025-07-05 13:56:24,192 - utils.logger - INFO - Qwen工作线程开始运行
+2025-07-05 13:56:24,192 - utils.logger - INFO - Qwen分析工作线程已启动
+2025-07-05 13:56:24,193 - utils.logger - INFO - 摄像头信息: {'width': 640, 'height': 480, 'fps': 30.00003000003, 'backend': 'DSHOW'}
+2025-07-05 13:56:24,193 - utils.logger - INFO - 模型信息: {'model_path': 'C:\\Users\\Jero\\Desktop\\Code\\ultralytics-main\\runs\\detect\\train14\\weights\\best.pt', 'image_size': 640, 'conf_threshold': 0.3, 'model_names': {0: 'medium', 1: 'good', 2: 'bad'}}
+2025-07-05 13:56:24,193 - utils.logger - INFO - 配置参数: 分析间隔=10s
+2025-07-05 13:56:24,193 - utils.logger - INFO - 应用程序初始化完成
+2025-07-05 13:56:24,193 - utils.logger - INFO - 开始实时检测，按 'q' 退出...
+2025-07-05 13:56:24,928 - utils.logger - ERROR - 主循环异常: 'DisplayManager' object has no attribute '_draw_fps_simple'
+2025-07-05 13:56:24,929 - utils.logger - INFO - 正在清理资源...
+2025-07-05 13:56:25,193 - utils.logger - INFO - Qwen工作线程已停止
+2025-07-05 13:56:25,193 - utils.logger - INFO - Qwen分析器已停止
+2025-07-05 13:56:25,452 - utils.logger - INFO - 摄像头资源已释放
+2025-07-05 13:56:25,465 - utils.logger - INFO - === 性能总结 ===
+2025-07-05 13:56:25,465 - utils.logger - INFO - total_frames: 1
+2025-07-05 13:56:25,466 - utils.logger - INFO - total_time: 2.45
+2025-07-05 13:56:25,466 - utils.logger - INFO - average_fps: 1.36
+2025-07-05 13:56:25,466 - utils.logger - INFO - average_frame_time: 0.73
+2025-07-05 13:56:25,466 - utils.logger - INFO - overall_fps: 0.41
+2025-07-05 13:56:25,466 - utils.logger - INFO - === 分析统计 ===
+2025-07-05 13:56:25,467 - utils.logger - INFO - total_analysis: 0
+2025-07-05 13:56:25,467 - utils.logger - INFO - is_analyzing: False
+2025-07-05 13:56:25,467 - utils.logger - INFO - queue_size: 0
+2025-07-05 13:56:25,467 - utils.logger - INFO - 所有资源已释放，程序结束
+2025-07-05 13:56:50,664 - utils.logger - INFO - 成功加载YOLO模型: C:\Users\Jero\Desktop\Code\ultralytics-main\runs\detect\train14\weights\best.pt
+2025-07-05 13:56:50,882 - utils.logger - INFO - Qwen客户端初始化成功
+2025-07-05 13:56:50,882 - utils.logger - INFO - 正在初始化应用程序...
+2025-07-05 13:56:52,051 - utils.logger - INFO - 摄像头初始化成功 - 分辨率: 640x480
+2025-07-05 13:56:52,052 - utils.logger - INFO - Qwen工作线程开始运行
+2025-07-05 13:56:52,052 - utils.logger - INFO - Qwen分析工作线程已启动
+2025-07-05 13:56:52,053 - utils.logger - INFO - 摄像头信息: {'width': 640, 'height': 480, 'fps': 30.00003000003, 'backend': 'DSHOW'}
+2025-07-05 13:56:52,053 - utils.logger - INFO - 模型信息: {'model_path': 'C:\\Users\\Jero\\Desktop\\Code\\ultralytics-main\\runs\\detect\\train14\\weights\\best.pt', 'image_size': 640, 'conf_threshold': 0.3, 'model_names': {0: 'medium', 1: 'good', 2: 'bad'}}
+2025-07-05 13:56:52,053 - utils.logger - INFO - 配置参数: 分析间隔=10s
+2025-07-05 13:56:52,053 - utils.logger - INFO - 应用程序初始化完成
+2025-07-05 13:56:52,053 - utils.logger - INFO - 开始实时检测，按 'q' 退出...
+2025-07-05 13:56:52,798 - utils.logger - ERROR - 主循环异常: 'DisplayManager' object has no attribute '_draw_fps_simple'
+2025-07-05 13:56:52,799 - utils.logger - INFO - 正在清理资源...
+2025-07-05 13:56:53,053 - utils.logger - INFO - Qwen工作线程已停止
+2025-07-05 13:56:53,053 - utils.logger - INFO - Qwen分析器已停止
+2025-07-05 13:56:53,312 - utils.logger - INFO - 摄像头资源已释放
+2025-07-05 13:56:53,326 - utils.logger - INFO - === 性能总结 ===
+2025-07-05 13:56:53,326 - utils.logger - INFO - total_frames: 1
+2025-07-05 13:56:53,326 - utils.logger - INFO - total_time: 2.44
+2025-07-05 13:56:53,327 - utils.logger - INFO - average_fps: 1.34
+2025-07-05 13:56:53,327 - utils.logger - INFO - average_frame_time: 0.74
+2025-07-05 13:56:53,327 - utils.logger - INFO - overall_fps: 0.41
+2025-07-05 13:56:53,327 - utils.logger - INFO - === 分析统计 ===
+2025-07-05 13:56:53,327 - utils.logger - INFO - total_analysis: 0
+2025-07-05 13:56:53,327 - utils.logger - INFO - is_analyzing: False
+2025-07-05 13:56:53,327 - utils.logger - INFO - queue_size: 0
+2025-07-05 13:56:53,328 - utils.logger - INFO - 所有资源已释放，程序结束
+2025-07-05 14:00:32,580 - utils.logger - INFO - 成功加载YOLO模型: C:\Users\Jero\Desktop\Code\ultralytics-main\runs\detect\train14\weights\best.pt
+2025-07-05 14:00:32,801 - utils.logger - INFO - Qwen客户端初始化成功
+2025-07-05 14:00:32,801 - utils.logger - INFO - 正在初始化应用程序...
+2025-07-05 14:00:33,982 - utils.logger - INFO - 摄像头初始化成功 - 分辨率: 640x480
+2025-07-05 14:00:33,983 - utils.logger - INFO - Qwen工作线程开始运行
+2025-07-05 14:00:33,983 - utils.logger - INFO - Qwen分析工作线程已启动
+2025-07-05 14:00:33,983 - utils.logger - INFO - 摄像头信息: {'width': 640, 'height': 480, 'fps': 30.00003000003, 'backend': 'DSHOW'}
+2025-07-05 14:00:33,983 - utils.logger - INFO - 模型信息: {'model_path': 'C:\\Users\\Jero\\Desktop\\Code\\ultralytics-main\\runs\\detect\\train14\\weights\\best.pt', 'image_size': 640, 'conf_threshold': 0.3, 'model_names': {0: 'medium', 1: 'good', 2: 'bad'}}
+2025-07-05 14:00:33,984 - utils.logger - INFO - 配置参数: 分析间隔=10s
+2025-07-05 14:00:33,984 - utils.logger - INFO - 应用程序初始化完成
+2025-07-05 14:00:33,984 - utils.logger - INFO - 开始实时检测，按 'q' 退出...
+2025-07-05 14:00:34,805 - utils.logger - ERROR - 主循环异常: 'DisplayManager' object has no attribute '_draw_fps_simple'
+2025-07-05 14:00:34,805 - utils.logger - INFO - 正在清理资源...
+2025-07-05 14:00:34,983 - utils.logger - INFO - Qwen工作线程已停止
+2025-07-05 14:00:34,984 - utils.logger - INFO - Qwen分析器已停止
+2025-07-05 14:00:35,244 - utils.logger - INFO - 摄像头资源已释放
+2025-07-05 14:00:35,258 - utils.logger - INFO - === 性能总结 ===
+2025-07-05 14:00:35,258 - utils.logger - INFO - total_frames: 1
+2025-07-05 14:00:35,258 - utils.logger - INFO - total_time: 2.46
+2025-07-05 14:00:35,258 - utils.logger - INFO - average_fps: 1.22
+2025-07-05 14:00:35,258 - utils.logger - INFO - average_frame_time: 0.82
+2025-07-05 14:00:35,258 - utils.logger - INFO - overall_fps: 0.41
+2025-07-05 14:00:35,258 - utils.logger - INFO - === 分析统计 ===
+2025-07-05 14:00:35,259 - utils.logger - INFO - total_analysis: 0
+2025-07-05 14:00:35,259 - utils.logger - INFO - is_analyzing: False
+2025-07-05 14:00:35,259 - utils.logger - INFO - queue_size: 0
+2025-07-05 14:00:35,259 - utils.logger - INFO - 所有资源已释放，程序结束
+2025-07-05 14:03:31,646 - utils.logger - INFO - 成功加载YOLO模型: C:\Users\Jero\Desktop\Code\ultralytics-main\runs\detect\train14\weights\best.pt
+2025-07-05 14:03:31,866 - utils.logger - INFO - Qwen客户端初始化成功
+2025-07-05 14:03:31,866 - utils.logger - INFO - 正在初始化应用程序...
+2025-07-05 14:03:33,042 - utils.logger - INFO - 摄像头初始化成功 - 分辨率: 640x480
+2025-07-05 14:03:33,042 - utils.logger - INFO - Qwen工作线程开始运行
+2025-07-05 14:03:33,042 - utils.logger - INFO - Qwen分析工作线程已启动
+2025-07-05 14:03:33,043 - utils.logger - INFO - 摄像头信息: {'width': 640, 'height': 480, 'fps': 30.00003000003, 'backend': 'DSHOW'}
+2025-07-05 14:03:33,043 - utils.logger - INFO - 模型信息: {'model_path': 'C:\\Users\\Jero\\Desktop\\Code\\ultralytics-main\\runs\\detect\\train14\\weights\\best.pt', 'image_size': 640, 'conf_threshold': 0.3, 'model_names': {0: 'medium', 1: 'good', 2: 'bad'}}
+2025-07-05 14:03:33,043 - utils.logger - INFO - 配置参数: 分析间隔=10s
+2025-07-05 14:03:33,043 - utils.logger - INFO - 应用程序初始化完成
+2025-07-05 14:03:33,043 - utils.logger - INFO - 开始实时检测，按 'q' 退出...
+2025-07-05 14:03:34,058 - utils.logger - INFO - 已提交第5帧进行后台分析
+2025-07-05 14:03:34,058 - utils.logger - INFO - 开始第1次分析...
+2025-07-05 14:03:36,414 - utils.logger - INFO - 分析完成 (耗时: 2.36s): 刀头磨损状态良好，检测到的铁屑质量为good级别。
+2025-07-05 14:03:44,862 - utils.logger - INFO - 已提交第156帧进行后台分析
+2025-07-05 14:03:44,862 - utils.logger - INFO - 开始第2次分析...
+2025-07-05 14:03:45,646 - utils.logger - INFO - 检测到 'q' 键按下，正在退出...
+2025-07-05 14:03:45,646 - utils.logger - INFO - 正在清理资源...
+2025-07-05 14:03:47,367 - utils.logger - INFO - 分析完成 (耗时: 2.50s): 刀头磨损状态良好，检测到的铁屑质量为good。
+2025-07-05 14:03:47,367 - utils.logger - INFO - Qwen工作线程已停止
+2025-07-05 14:03:47,367 - utils.logger - INFO - Qwen分析器已停止
+2025-07-05 14:03:47,626 - utils.logger - INFO - 摄像头资源已释放
+2025-07-05 14:03:47,649 - utils.logger - INFO - === 性能总结 ===
+2025-07-05 14:03:47,649 - utils.logger - INFO - total_frames: 170
+2025-07-05 14:03:47,649 - utils.logger - INFO - total_time: 15.78
+2025-07-05 14:03:47,649 - utils.logger - INFO - average_fps: 17.57
+2025-07-05 14:03:47,649 - utils.logger - INFO - average_frame_time: 0.06
+2025-07-05 14:03:47,649 - utils.logger - INFO - overall_fps: 10.77
+2025-07-05 14:03:47,651 - utils.logger - INFO - === 分析统计 ===
+2025-07-05 14:03:47,651 - utils.logger - INFO - total_analysis: 2
+2025-07-05 14:03:47,651 - utils.logger - INFO - is_analyzing: False
+2025-07-05 14:03:47,651 - utils.logger - INFO - queue_size: 0
+2025-07-05 14:03:47,651 - utils.logger - INFO - 所有资源已释放，程序结束
+2025-07-05 14:12:22,377 - utils.logger - INFO - 成功加载YOLO模型: C:\Users\Jero\Desktop\Code\ultralytics-main\runs\detect\train14\weights\best.pt
+2025-07-05 14:12:22,593 - utils.logger - INFO - Qwen客户端初始化成功
+2025-07-05 14:12:22,593 - utils.logger - INFO - 正在初始化应用程序...
+2025-07-05 14:12:23,774 - utils.logger - INFO - 摄像头初始化成功 - 分辨率: 640x480
+2025-07-05 14:12:23,775 - utils.logger - INFO - Qwen工作线程开始运行
+2025-07-05 14:12:23,775 - utils.logger - INFO - Qwen分析工作线程已启动
+2025-07-05 14:12:23,775 - utils.logger - INFO - 摄像头信息: {'width': 640, 'height': 480, 'fps': 30.00003000003, 'backend': 'DSHOW'}
+2025-07-05 14:12:23,775 - utils.logger - INFO - 模型信息: {'model_path': 'C:\\Users\\Jero\\Desktop\\Code\\ultralytics-main\\runs\\detect\\train14\\weights\\best.pt', 'image_size': 640, 'conf_threshold': 0.3, 'model_names': {0: 'medium', 1: 'good', 2: 'bad'}}
+2025-07-05 14:12:23,776 - utils.logger - INFO - 配置参数: 分析间隔=10s
+2025-07-05 14:12:23,776 - utils.logger - INFO - 应用程序初始化完成
+2025-07-05 14:12:23,776 - utils.logger - INFO - 开始实时检测，按 'q' 退出...
+2025-07-05 14:12:28,375 - utils.logger - INFO - 已提交第63帧进行后台分析
+2025-07-05 14:12:28,376 - utils.logger - INFO - 开始第1次分析...
+2025-07-05 14:12:31,029 - utils.logger - INFO - 分析完成 (耗时: 2.65s): 刀头磨损状态为中等，检测到一个medium级别的铁屑。
+2025-07-05 14:12:38,421 - utils.logger - INFO - 已提交第231帧进行后台分析
+2025-07-05 14:12:38,421 - utils.logger - INFO - 开始第2次分析...
+2025-07-05 14:12:40,212 - utils.logger - INFO - 分析完成 (耗时: 1.79s): 刀头磨损状态良好，检测到的铁屑质量为good。
+2025-07-05 14:12:42,263 - utils.logger - INFO - 检测到 'q' 键按下，正在退出...
+2025-07-05 14:12:42,263 - utils.logger - INFO - 正在清理资源...
+2025-07-05 14:12:43,215 - utils.logger - INFO - Qwen工作线程已停止
+2025-07-05 14:12:43,215 - utils.logger - INFO - Qwen分析器已停止
+2025-07-05 14:12:43,477 - utils.logger - INFO - 摄像头资源已释放
+2025-07-05 14:12:43,506 - utils.logger - INFO - === 性能总结 ===
+2025-07-05 14:12:43,506 - utils.logger - INFO - total_frames: 296
+2025-07-05 14:12:43,506 - utils.logger - INFO - total_time: 20.91
+2025-07-05 14:12:43,506 - utils.logger - INFO - average_fps: 17.72
+2025-07-05 14:12:43,506 - utils.logger - INFO - average_frame_time: 0.06
+2025-07-05 14:12:43,506 - utils.logger - INFO - overall_fps: 14.15
+2025-07-05 14:12:43,507 - utils.logger - INFO - === 分析统计 ===
+2025-07-05 14:12:43,507 - utils.logger - INFO - total_analysis: 2
+2025-07-05 14:12:43,507 - utils.logger - INFO - is_analyzing: False
+2025-07-05 14:12:43,507 - utils.logger - INFO - queue_size: 0
+2025-07-05 14:12:43,507 - utils.logger - INFO - 所有资源已释放，程序结束
+2025-07-05 14:14:34,191 - utils.logger - INFO - 成功加载YOLO模型: C:\Users\Jero\Desktop\Code\ultralytics-main\runs\detect\train14\weights\best.pt
+2025-07-05 14:14:34,410 - utils.logger - INFO - Qwen客户端初始化成功
+2025-07-05 14:14:34,411 - utils.logger - INFO - 正在初始化应用程序...
+2025-07-05 14:14:35,590 - utils.logger - INFO - 摄像头初始化成功 - 分辨率: 640x480
+2025-07-05 14:14:35,592 - utils.logger - INFO - Qwen工作线程开始运行
+2025-07-05 14:14:35,592 - utils.logger - INFO - Qwen分析工作线程已启动
+2025-07-05 14:14:35,592 - utils.logger - INFO - 摄像头信息: {'width': 640, 'height': 480, 'fps': 30.00003000003, 'backend': 'DSHOW'}
+2025-07-05 14:14:35,593 - utils.logger - INFO - 模型信息: {'model_path': 'C:\\Users\\Jero\\Desktop\\Code\\ultralytics-main\\runs\\detect\\train14\\weights\\best.pt', 'image_size': 640, 'conf_threshold': 0.3, 'model_names': {0: 'medium', 1: 'good', 2: 'bad'}}
+2025-07-05 14:14:35,593 - utils.logger - INFO - 配置参数: 分析间隔=10s
+2025-07-05 14:14:35,593 - utils.logger - INFO - 应用程序初始化完成
+2025-07-05 14:14:35,593 - utils.logger - INFO - 开始实时检测，按 'q' 退出...
+2025-07-05 14:14:36,390 - utils.logger - INFO - 已提交第0帧进行后台分析
+2025-07-05 14:14:36,390 - utils.logger - INFO - 开始第1次分析...
+2025-07-05 14:14:38,926 - utils.logger - INFO - 分析完成 (耗时: 2.54s): 刀头磨损状态良好，检测到的铁屑质量为good。
+2025-07-05 14:14:44,393 - utils.logger - INFO - 检测到 'q' 键按下，正在退出...
+2025-07-05 14:14:44,393 - utils.logger - INFO - 正在清理资源...
+2025-07-05 14:14:44,930 - utils.logger - INFO - Qwen工作线程已停止
+2025-07-05 14:14:44,930 - utils.logger - INFO - Qwen分析器已停止
+2025-07-05 14:14:45,181 - utils.logger - INFO - 摄像头资源已释放
+2025-07-05 14:14:45,207 - utils.logger - INFO - === 性能总结 ===
+2025-07-05 14:14:45,207 - utils.logger - INFO - total_frames: 134
+2025-07-05 14:14:45,207 - utils.logger - INFO - total_time: 10.80
+2025-07-05 14:14:45,207 - utils.logger - INFO - average_fps: 17.36
+2025-07-05 14:14:45,208 - utils.logger - INFO - average_frame_time: 0.06
+2025-07-05 14:14:45,208 - utils.logger - INFO - overall_fps: 12.41
+2025-07-05 14:14:45,208 - utils.logger - INFO - === 分析统计 ===
+2025-07-05 14:14:45,208 - utils.logger - INFO - total_analysis: 1
+2025-07-05 14:14:45,208 - utils.logger - INFO - is_analyzing: False
+2025-07-05 14:14:45,208 - utils.logger - INFO - queue_size: 0
+2025-07-05 14:14:45,209 - utils.logger - INFO - 所有资源已释放，程序结束
+2025-07-05 14:15:37,892 - utils.logger - INFO - 成功加载YOLO模型: C:\Users\Jero\Desktop\Code\ultralytics-main\runs\detect\train14\weights\best.pt
+2025-07-05 14:15:38,108 - utils.logger - INFO - Qwen客户端初始化成功
+2025-07-05 14:15:38,109 - utils.logger - INFO - 正在初始化应用程序...
+2025-07-05 14:15:39,292 - utils.logger - INFO - 摄像头初始化成功 - 分辨率: 640x480
+2025-07-05 14:15:39,293 - utils.logger - INFO - Qwen工作线程开始运行
+2025-07-05 14:15:39,293 - utils.logger - INFO - Qwen分析工作线程已启动
+2025-07-05 14:15:39,293 - utils.logger - INFO - 摄像头信息: {'width': 640, 'height': 480, 'fps': 30.00003000003, 'backend': 'DSHOW'}
+2025-07-05 14:15:39,294 - utils.logger - INFO - 模型信息: {'model_path': 'C:\\Users\\Jero\\Desktop\\Code\\ultralytics-main\\runs\\detect\\train14\\weights\\best.pt', 'image_size': 640, 'conf_threshold': 0.3, 'model_names': {0: 'medium', 1: 'good', 2: 'bad'}}
+2025-07-05 14:15:39,294 - utils.logger - INFO - 配置参数: 分析间隔=10s
+2025-07-05 14:15:39,294 - utils.logger - INFO - 应用程序初始化完成
+2025-07-05 14:15:39,294 - utils.logger - INFO - 开始实时检测，按 'q' 退出...
+2025-07-05 14:15:41,581 - utils.logger - INFO - 已提交第26帧进行后台分析
+2025-07-05 14:15:41,581 - utils.logger - INFO - 开始第1次分析...
+2025-07-05 14:15:43,825 - utils.logger - INFO - 分析完成 (耗时: 2.24s): 刀头磨损状态良好，检测到的铁屑质量为good级别。
+2025-07-05 14:15:51,599 - utils.logger - INFO - 已提交第193帧进行后台分析
+2025-07-05 14:15:51,599 - utils.logger - INFO - 开始第2次分析...
+2025-07-05 14:15:55,312 - utils.logger - INFO - 分析完成 (耗时: 3.71s): 刀头磨损状态较为严重，检测到的铁屑中bad和medium类别占比超过60%，表明需要及时维护或更换刀具。
+2025-07-05 14:15:57,491 - utils.logger - INFO - 检测到 'q' 键按下，正在退出...
+2025-07-05 14:15:57,491 - utils.logger - INFO - 正在清理资源...
+2025-07-05 14:15:58,313 - utils.logger - INFO - Qwen工作线程已停止
+2025-07-05 14:15:58,313 - utils.logger - INFO - Qwen分析器已停止
+2025-07-05 14:15:58,580 - utils.logger - INFO - 摄像头资源已释放
+2025-07-05 14:15:58,606 - utils.logger - INFO - === 性能总结 ===
+2025-07-05 14:15:58,607 - utils.logger - INFO - total_frames: 292
+2025-07-05 14:15:58,607 - utils.logger - INFO - total_time: 20.50
+2025-07-05 14:15:58,607 - utils.logger - INFO - average_fps: 17.59
+2025-07-05 14:15:58,607 - utils.logger - INFO - average_frame_time: 0.06
+2025-07-05 14:15:58,608 - utils.logger - INFO - overall_fps: 14.25
+2025-07-05 14:15:58,608 - utils.logger - INFO - === 分析统计 ===
+2025-07-05 14:15:58,608 - utils.logger - INFO - total_analysis: 2
+2025-07-05 14:15:58,608 - utils.logger - INFO - is_analyzing: False
+2025-07-05 14:15:58,608 - utils.logger - INFO - queue_size: 0
+2025-07-05 14:15:58,608 - utils.logger - INFO - 所有资源已释放，程序结束
+2025-07-05 14:17:37,667 - utils.logger - INFO - 成功加载YOLO模型: C:\Users\Jero\Desktop\Code\ultralytics-main\runs\detect\train14\weights\best.pt
+2025-07-05 14:17:37,881 - utils.logger - INFO - Qwen客户端初始化成功
+2025-07-05 14:17:37,882 - utils.logger - INFO - 正在初始化应用程序...
+2025-07-05 14:17:39,053 - utils.logger - INFO - 摄像头初始化成功 - 分辨率: 640x480
+2025-07-05 14:17:39,054 - utils.logger - INFO - Qwen工作线程开始运行
+2025-07-05 14:17:39,054 - utils.logger - INFO - Qwen分析工作线程已启动
+2025-07-05 14:17:39,054 - utils.logger - INFO - 摄像头信息: {'width': 640, 'height': 480, 'fps': 30.00003000003, 'backend': 'DSHOW'}
+2025-07-05 14:17:39,055 - utils.logger - INFO - 模型信息: {'model_path': 'C:\\Users\\Jero\\Desktop\\Code\\ultralytics-main\\runs\\detect\\train14\\weights\\best.pt', 'image_size': 640, 'conf_threshold': 0.3, 'model_names': {0: 'medium', 1: 'good', 2: 'bad'}}
+2025-07-05 14:17:39,055 - utils.logger - INFO - 配置参数: 分析间隔=10s
+2025-07-05 14:17:39,055 - utils.logger - INFO - 应用程序初始化完成
+2025-07-05 14:17:39,055 - utils.logger - INFO - 开始实时检测，按 'q' 退出...
+2025-07-05 14:17:39,798 - utils.logger - INFO - 已提交第0帧进行后台分析
+2025-07-05 14:17:39,798 - utils.logger - INFO - 开始第1次分析...
+2025-07-05 14:17:44,987 - utils.logger - INFO - 分析完成 (耗时: 5.19s): 刀头磨损状态良好，检测到的两个铁屑均为“good”类别。
+2025-07-05 14:18:10,358 - utils.logger - INFO - 已提交第508帧进行后台分析
+2025-07-05 14:18:10,358 - utils.logger - INFO - 开始第2次分析...
+2025-07-05 14:18:17,906 - utils.logger - INFO - 分析完成 (耗时: 7.55s): 刀头磨损状态良好，检测到的铁屑质量为good级别。
+2025-07-05 14:18:20,406 - utils.logger - INFO - 已提交第675帧进行后台分析
+2025-07-05 14:18:20,406 - utils.logger - INFO - 开始第3次分析...
+2025-07-05 14:18:24,210 - utils.logger - INFO - 分析完成 (耗时: 3.80s): 刀头磨损状态较为轻微，检测到的铁屑多数为good和medium类别，仅有一个bad类别铁屑。
+2025-07-05 14:18:30,454 - utils.logger - INFO - 已提交第842帧进行后台分析
+2025-07-05 14:18:30,454 - utils.logger - INFO - 开始第4次分析...
+2025-07-05 14:18:32,490 - utils.logger - INFO - 分析完成 (耗时: 2.03s): 刀头磨损状态良好，检测到的3个铁屑均为good级别。
+2025-07-05 14:18:39,243 - utils.logger - INFO - 检测到 'q' 键按下，正在退出...
+2025-07-05 14:18:39,243 - utils.logger - INFO - 正在清理资源...
+2025-07-05 14:18:39,494 - utils.logger - INFO - Qwen工作线程已停止
+2025-07-05 14:18:39,494 - utils.logger - INFO - Qwen分析器已停止
+2025-07-05 14:18:39,752 - utils.logger - INFO - 摄像头资源已释放
+2025-07-05 14:18:39,782 - utils.logger - INFO - === 性能总结 ===
+2025-07-05 14:18:39,783 - utils.logger - INFO - total_frames: 989
+2025-07-05 14:18:39,783 - utils.logger - INFO - total_time: 61.90
+2025-07-05 14:18:39,783 - utils.logger - INFO - average_fps: 17.67
+2025-07-05 14:18:39,783 - utils.logger - INFO - average_frame_time: 0.06
+2025-07-05 14:18:39,783 - utils.logger - INFO - overall_fps: 15.98
+2025-07-05 14:18:39,783 - utils.logger - INFO - === 分析统计 ===
+2025-07-05 14:18:39,783 - utils.logger - INFO - total_analysis: 4
+2025-07-05 14:18:39,784 - utils.logger - INFO - is_analyzing: False
+2025-07-05 14:18:39,784 - utils.logger - INFO - queue_size: 0
+2025-07-05 14:18:39,784 - utils.logger - INFO - 所有资源已释放，程序结束
+2025-07-05 14:21:47,381 - utils.logger - INFO - 成功加载YOLO模型: C:\Users\Jero\Desktop\Code\ultralytics-main\runs\detect\train14\weights\best.pt
+2025-07-05 14:21:47,596 - utils.logger - INFO - Qwen客户端初始化成功
+2025-07-05 14:21:47,597 - utils.logger - INFO - 正在初始化应用程序...
+2025-07-05 14:21:48,772 - utils.logger - INFO - 摄像头初始化成功 - 分辨率: 640x480
+2025-07-05 14:21:48,773 - utils.logger - INFO - Qwen工作线程开始运行
+2025-07-05 14:21:48,773 - utils.logger - INFO - Qwen分析工作线程已启动
+2025-07-05 14:21:48,774 - utils.logger - INFO - 摄像头信息: {'width': 640, 'height': 480, 'fps': 30.00003000003, 'backend': 'DSHOW'}
+2025-07-05 14:21:48,774 - utils.logger - INFO - 模型信息: {'model_path': 'C:\\Users\\Jero\\Desktop\\Code\\ultralytics-main\\runs\\detect\\train14\\weights\\best.pt', 'image_size': 640, 'conf_threshold': 0.3, 'model_names': {0: 'medium', 1: 'good', 2: 'bad'}}
+2025-07-05 14:21:48,774 - utils.logger - INFO - 配置参数: 分析间隔=10s
+2025-07-05 14:21:48,774 - utils.logger - INFO - 应用程序初始化完成
+2025-07-05 14:21:48,775 - utils.logger - INFO - 开始实时检测，按 'q' 退出...
+2025-07-05 14:21:49,545 - utils.logger - INFO - 已提交第0帧进行后台分析
+2025-07-05 14:21:49,545 - utils.logger - INFO - 开始第1次分析...
+2025-07-05 14:21:52,125 - utils.logger - INFO - 分析完成 (耗时: 2.58s): 刀头磨损状态良好，检测到的3个铁屑均为“good”类别，分布均匀且无明显异常。
+2025-07-05 14:21:59,575 - utils.logger - INFO - 已提交第167帧进行后台分析
+2025-07-05 14:21:59,575 - utils.logger - INFO - 开始第2次分析...
+2025-07-05 14:22:11,862 - utils.logger - INFO - 分析完成 (耗时: 12.29s): 刀头磨损状态较为严重，检测到的铁屑中bad和medium类别较多，占比超过70%，表明刀具可能需要及时维护或更换。
+2025-07-05 14:22:11,913 - utils.logger - INFO - 已提交第372帧进行后台分析
+2025-07-05 14:22:11,913 - utils.logger - INFO - 开始第3次分析...
+2025-07-05 14:22:21,484 - utils.logger - INFO - 分析完成 (耗时: 9.57s): 刀头磨损状态较为严重，检测到的铁屑中bad和medium类别较多，占比超过65%，表明刀具可能需要及时维护或更换。
+2025-07-05 14:22:21,961 - utils.logger - INFO - 已提交第539帧进行后台分析
+2025-07-05 14:22:21,961 - utils.logger - INFO - 开始第4次分析...
+2025-07-05 14:22:33,360 - utils.logger - INFO - 分析完成 (耗时: 11.40s): 刀头磨损状态较为严重，检测到的铁屑中bad和medium类别较多，共占总数量的约71%，表明刀具可能需要及时维护或更换。
+2025-07-05 14:22:33,375 - utils.logger - INFO - 已提交第729帧进行后台分析
+2025-07-05 14:22:33,375 - utils.logger - INFO - 开始第5次分析...
+2025-07-05 14:22:38,540 - utils.logger - INFO - 分析完成 (耗时: 5.17s): 刀头磨损状态良好，大部分铁屑质量为good，少量为medium和bad，表明刀具整体状况尚可但需关注个别磨损点。
+2025-07-05 14:22:43,424 - utils.logger - INFO - 已提交第896帧进行后台分析
+2025-07-05 14:22:43,424 - utils.logger - INFO - 开始第6次分析...
+2025-07-05 14:22:47,595 - utils.logger - INFO - 检测到 'q' 键按下，正在退出...
+2025-07-05 14:22:47,596 - utils.logger - INFO - 正在清理资源...
+2025-07-05 14:22:50,596 - utils.logger - INFO - Qwen分析器已停止
+2025-07-05 14:22:50,864 - utils.logger - INFO - 摄像头资源已释放
+2025-07-05 14:22:50,890 - utils.logger - INFO - === 性能总结 ===
+2025-07-05 14:22:50,890 - utils.logger - INFO - total_frames: 966
+2025-07-05 14:22:50,890 - utils.logger - INFO - total_time: 63.29
+2025-07-05 14:22:50,891 - utils.logger - INFO - average_fps: 17.62
+2025-07-05 14:22:50,891 - utils.logger - INFO - average_frame_time: 0.06
+2025-07-05 14:22:50,891 - utils.logger - INFO - overall_fps: 15.26
+2025-07-05 14:22:50,891 - utils.logger - INFO - === 分析统计 ===
+2025-07-05 14:22:50,891 - utils.logger - INFO - total_analysis: 6
+2025-07-05 14:22:50,892 - utils.logger - INFO - is_analyzing: True
+2025-07-05 14:22:50,892 - utils.logger - INFO - queue_size: 0
+2025-07-05 14:22:50,892 - utils.logger - INFO - 所有资源已释放，程序结束
+2025-07-05 14:31:13,988 - utils.logger - INFO - 成功加载YOLO模型: C:\Users\Jero\Desktop\Code\ultralytics-main\runs\detect\train14\weights\best.pt
+2025-07-05 14:31:14,213 - utils.logger - INFO - Qwen客户端初始化成功
+2025-07-05 14:31:14,213 - utils.logger - INFO - 正在初始化应用程序...
+2025-07-05 14:31:15,416 - utils.logger - INFO - 摄像头初始化成功 - 分辨率: 640x480
+2025-07-05 14:31:15,417 - utils.logger - INFO - Qwen工作线程开始运行
+2025-07-05 14:31:15,418 - utils.logger - INFO - Qwen分析工作线程已启动
+2025-07-05 14:31:15,418 - utils.logger - INFO - 摄像头信息: {'width': 640, 'height': 480, 'fps': 30.00003000003, 'backend': 'DSHOW'}
+2025-07-05 14:31:15,418 - utils.logger - INFO - 模型信息: {'model_path': 'C:\\Users\\Jero\\Desktop\\Code\\ultralytics-main\\runs\\detect\\train14\\weights\\best.pt', 'image_size': 640, 'conf_threshold': 0.3, 'model_names': {0: 'medium', 1: 'good', 2: 'bad'}}
+2025-07-05 14:31:15,418 - utils.logger - INFO - 配置参数: 分析间隔=10s
+2025-07-05 14:31:15,418 - utils.logger - INFO - 应用程序初始化完成
+2025-07-05 14:31:15,418 - utils.logger - INFO - 开始实时检测，按 'q' 退出...
+2025-07-05 14:31:18,380 - utils.logger - INFO - 已提交第35帧进行后台分析
+2025-07-05 14:31:18,380 - utils.logger - INFO - 开始第1次分析...
+2025-07-05 14:31:21,153 - utils.logger - INFO - 分析完成 (耗时: 2.77s): 刀头磨损状态为中等，检测到1个medium级别的铁屑。
+2025-07-05 14:31:28,425 - utils.logger - INFO - 已提交第203帧进行后台分析
+2025-07-05 14:31:28,425 - utils.logger - INFO - 开始第2次分析...
+2025-07-05 14:31:30,730 - utils.logger - INFO - 分析完成 (耗时: 2.30s): 刀头磨损状态良好，检测到的所有铁屑均为“good”类别。
+2025-07-05 14:31:38,479 - utils.logger - INFO - 已提交第370帧进行后台分析
+2025-07-05 14:31:38,479 - utils.logger - INFO - 开始第3次分析...
+2025-07-05 14:31:41,398 - utils.logger - INFO - 分析完成 (耗时: 2.92s): 刀头磨损状态良好，检测到的铁屑大部分为good级别，表明当前切削性能较为理想。
+2025-07-05 14:31:48,526 - utils.logger - INFO - 已提交第537帧进行后台分析
+2025-07-05 14:31:48,526 - utils.logger - INFO - 开始第4次分析...
+2025-07-05 14:31:50,790 - utils.logger - INFO - 分析完成 (耗时: 2.26s): 刀头磨损状态较为严重，检测到的铁屑中有bad、medium和good三类，表明需要及时检查和维护。
+2025-07-05 14:31:58,578 - utils.logger - INFO - 已提交第704帧进行后台分析
+2025-07-05 14:31:58,579 - utils.logger - INFO - 开始第5次分析...
+2025-07-05 14:32:01,922 - utils.logger - INFO - 分析完成 (耗时: 3.34s): 刀头磨损状态较为严重，检测到的铁屑中 "bad" 类别占比最高，表明需要及时维护或更换刀具。
+2025-07-05 14:32:08,631 - utils.logger - INFO - 已提交第871帧进行后台分析
+2025-07-05 14:32:08,631 - utils.logger - INFO - 开始第6次分析...
+2025-07-05 14:32:11,946 - utils.logger - INFO - 分析完成 (耗时: 3.31s): 刀头磨损状态较为严重，检测到的铁屑中“bad”类别占比最高，表明需要及时维护或更换刀具。
+2025-07-05 14:32:18,679 - utils.logger - INFO - 已提交第1038帧进行后台分析
+2025-07-05 14:32:18,679 - utils.logger - INFO - 开始第7次分析...
+2025-07-05 14:32:23,805 - utils.logger - INFO - 分析完成 (耗时: 5.13s): 刀头磨损状态较为严重，检测到的铁屑中“bad”类别占比最高，表明需要及时维护或更换刀具。
+2025-07-05 14:32:26,869 - utils.logger - INFO - 检测到 'q' 键按下，正在退出...
+2025-07-05 14:32:26,869 - utils.logger - INFO - 正在清理资源...
+2025-07-05 14:32:27,808 - utils.logger - INFO - Qwen工作线程已停止
+2025-07-05 14:32:27,808 - utils.logger - INFO - Qwen分析器已停止
+2025-07-05 14:32:28,068 - utils.logger - INFO - 摄像头资源已释放
+2025-07-05 14:32:28,094 - utils.logger - INFO - === 性能总结 ===
+2025-07-05 14:32:28,094 - utils.logger - INFO - total_frames: 1175
+2025-07-05 14:32:28,094 - utils.logger - INFO - total_time: 73.88
+2025-07-05 14:32:28,094 - utils.logger - INFO - average_fps: 17.41
+2025-07-05 14:32:28,094 - utils.logger - INFO - average_frame_time: 0.06
+2025-07-05 14:32:28,094 - utils.logger - INFO - overall_fps: 15.90
+2025-07-05 14:32:28,095 - utils.logger - INFO - === 分析统计 ===
+2025-07-05 14:32:28,095 - utils.logger - INFO - total_analysis: 7
+2025-07-05 14:32:28,095 - utils.logger - INFO - is_analyzing: False
+2025-07-05 14:32:28,095 - utils.logger - INFO - queue_size: 0
+2025-07-05 14:32:28,095 - utils.logger - INFO - 所有资源已释放，程序结束
