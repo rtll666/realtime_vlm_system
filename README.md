@@ -34,10 +34,9 @@
 
 ## **yolov8+qwen-vl-max**实时检测效果
 
-<video width="640" height="480" controls>
-  <source src="demo.mp4" type="video/mp4">
-  您的浏览器不支持视频标签。
-</video>
+
+https://github.com/user-attachments/assets/50d38fac-4bc5-44dc-b4d4-ead6405c1085
+
 
 
 ## 🚀 快速开始
