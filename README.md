@@ -44,7 +44,7 @@
 ### 1️⃣ 环境安装
 #### 克隆项目
 ```
-git clone <repository-url>
+git clone https://github.com/rtll666/realtime_vlm_system.git
 cd realtime_vlm_system
 ```
 #### 创建虚拟环境（推荐）
