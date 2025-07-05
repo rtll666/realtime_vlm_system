@@ -131,7 +131,7 @@ realtime_vlm_system/
 ├── LICENSE              # 项目许可证
 ├── main.py              # 程序入口
 ├── README.md            # 项目说明
-├── README_EN.md            # 项目说明
+├── README_CN.md            # 项目说明
 └── requirements.txt     # 依赖包列表
 
 ```
