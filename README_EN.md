@@ -44,7 +44,7 @@ This system integrates computer vision and natural language processing technolog
 #### Clone the Project
 
 ```
-git clone <repository-url>
+git clone https://github.com/rtll666/realtime_vlm_system.gi
 cd realtime_vlm_system
 ```
 #### Create Virtual Environment (Recommended)
