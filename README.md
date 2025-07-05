@@ -143,7 +143,7 @@ realtime_vlm_system/
 ├── LICENSE              # Project license
 ├── main.py              # Program entry point
 ├── README.md            # Project documentation
-├── README_EN.md         # Project documentation
+├── README_CN.md         # Project documentation
 └── requirements.txt     # Dependency list
 
 
