@@ -34,10 +34,9 @@ This system integrates computer vision and natural language processing technolog
 
 ## **yolov8+qwen-vl-max** Real-Time Detection Results
 
-<video width="640" height="480" controls>
-  <source src="demo.mp4" type="video/mp4">
-  Your browser does not support the video tag.
-</video>
+
+https://github.com/user-attachments/assets/5998caef-f943-4f75-b11e-28352f8acc03
+
 
 ## 🚀 Quick Start
 ### 1️⃣ Environment Setup
