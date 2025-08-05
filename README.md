@@ -1,13 +1,13 @@
 # Real-Time Vision-Language Model System
 
-A real-time swarf detection and analysis system based on **YOLOv8** and **Qwen-vl-max**, providing efficient video stream processing and intelligent analysis capabilities.
+A real-time swarf detection and analysis system based on **yolo** and **Qwen-vl-max**, providing efficient video stream processing and intelligent analysis capabilities.
 ---
 
 ## 📋 Project Overview
 This system integrates computer vision and natural language processing technologies to achieve real-time detection and intelligent analysis of industrial swarf. It adopts a multi-threaded architecture to ensure smooth interface performance and analysis accuracy.
 
 ### 🌟 Key Features
-- 🎯 Real-time Object Detection: High-precision swarf detection based on YOLOv8
+- 🎯 Real-time Object Detection: High-precision swarf detection based on yolo
 - 🧠 Intelligent Analysis: Integrated Qwen vision-language model for deep analysis
 - ⚡ Multi-threaded Architecture: Asynchronous processing to avoid UI lag
 - 📹 Video Stream Processing: Supports various camera devices
@@ -26,13 +26,13 @@ This system integrates computer vision and natural language processing technolog
 - Processor: Intel i5 or equivalent CPU
 
 ---
-## **yolov8** Model Inference Results
+## **yolo** Model Inference Results
 ![](test1.jpg)
 ![](test2.jpg)
 ![](test3.jpg)
 ![](test4.jpg)
 
-## **yolov8+qwen-vl-max** Real-Time Detection Results
+## **yolo+qwen-vl-max** Real-Time Detection Results
 
 
 https://github.com/user-attachments/assets/5998caef-f943-4f75-b11e-28352f8acc03
@@ -69,13 +69,13 @@ pip install -r requirements.txt
 ```
 ### 2️⃣ Configure Parameters
 Edit the `config/config.py` file to set the following parameters:
-- `model_path`: YOLOv8 model file path
+- `model_path`: yolo model file path
 - `api_key`: Qwen API key
 
-#### YOLOv8 Model Configuration
+#### yolo Model Configuration
 
 ```
-MODEL_PATH = "path/to/your/yolov8_model.pt"
+MODEL_PATH = "path/to/your/yolo_model.pt"
 ```
 
 
@@ -119,7 +119,7 @@ realtime_vlm_system/
 │   └── config.py        # Main configuration file
 ├── core/                # Core functional modules
 │   ├── camera_manager.py    # Camera manager
-│   ├── yolo_detector.py     # YOLOv8 detector
+│   ├── yolo_detector.py     # yolo detector
 │   ├── qwen_analyzer.py     # Qwen analyzer
 │   └── display_manager.py   # Display manager
 ├── data/                # Dataset directory (for training and testing)
@@ -127,11 +127,11 @@ realtime_vlm_system/
 |   |   ├── test/        # Training set images
 |   |   ├── train/       # Validation set images
 |   |   └── valid/       # Test set images
-|   ├── labels/          # YOLOv8 label directory
+|   ├── labels/          # yolo label directory
 |   |   ├── test/        # Training set labels
 |   |   ├── train/       # Validation set labels
 |   |   └── valid/       # Test set labels
-│   └── classes.txt      # YOLOv8 class file
+│   └── classes.txt      # yolo class file
 ├── logs/                # Log directory
 ├── models/              # Data models
 │   └── detection_result.py # Detection result model
@@ -155,7 +155,7 @@ realtime_vlm_system/
 
 | Parameter | Description | Default Value | Notes |
 | --- | --- | --- | --- |
-`MODEL_PATH` | YOLOv8 model file path | - | Required
+`MODEL_PATH` | yolo model file path | - | Required
 `CAMERA_INDEX` | Camera device index | 0 | Usually 0 or 1
 `ANALYSIS_INTERVAL` | Qwen analysis interval | 5 | In seconds
 `QWEN_API_KEY` | Qwen API key | - | Required
@@ -218,7 +218,7 @@ realtime_vlm_system/
 ## 🙏 Disclaimer
 This project is for learning and research purposes only. The developers are not responsible for any losses caused by the use of this project. Including:
 
-- **YoloV8**
+- **yolo**
 - **qwen-vl-max**
 - **Python-OpenCV**
 
