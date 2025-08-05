@@ -1,13 +1,13 @@
 # 实时视觉语言模型系统
 
-基于 **YOLOv8**  和 **Qwen-vl-max** 的实时铁屑检测与分析系统，提供高效的视频流处理和智能分析能力。
+基于 **yolo**  和 **Qwen-vl-max** 的实时铁屑检测与分析系统，提供高效的视频流处理和智能分析能力。
 ---
 
 ## 📋 项目概述
 本系统集成了计算机视觉和自然语言处理技术，实现对工业铁屑的实时检测和智能分析。采用多线程架构设计，确保界面流畅性和分析准确性。
 
 ### 🌟 核心特性
-- 🎯 实时目标检测：基于 YOLOv8 的高精度铁屑检测
+- 🎯 实时目标检测：基于 yolo 的高精度铁屑检测
 - 🧠 智能分析：集成 Qwen 视觉语言模型进行深度分析
 - ⚡ 多线程架构：异步处理避免界面卡顿
 - 📹 视频流处理：支持多种摄像头设备
@@ -26,13 +26,13 @@
 - 处理器：Intel i5 或同等性能 CPU
 
 ---
-## **yolov8**模型推理效果
+## **yolo**模型推理效果
 ![](test1.jpg)
 ![](test2.jpg)
 ![](test3.jpg)
 ![](test4.jpg)
 
-## **yolov8+qwen-vl-max**实时检测效果
+## **yolo+qwen-vl-max**实时检测效果
 
 
 https://github.com/user-attachments/assets/50d38fac-4bc5-44dc-b4d4-ead6405c1085
@@ -66,12 +66,12 @@ pip install -r requirements.txt
 ```
 ### 2️⃣ 配置参数
 编辑 `config/config.py` 文件，设置以下参数：
-- `model_path`：YOLOv8 模型文件路径
+- `model_path`：yolo 模型文件路径
 - `api_key`：Qwen API 密钥
 
-#### YOLOv8 模型配置
+#### yolo 模型配置
 ```
-MODEL_PATH = "path/to/your/yolov8_model.pt"
+MODEL_PATH = "path/to/your/yolo_model.pt"
 ```
 
 #### Qwen API 配置
@@ -107,7 +107,7 @@ realtime_vlm_system/
 │   └── config.py        # 主配置文件
 ├── core/                # 核心功能模块
 │   ├── camera_manager.py    # 摄像头管理
-│   ├── yolo_detector.py     # YOLOv8 检测器
+│   ├── yolo_detector.py     # yolo 检测器
 │   ├── qwen_analyzer.py     # Qwen 分析器
 │   └── display_manager.py   # 显示管理器
 ├── data/                # 数据集目录（用于训练与测试）
@@ -115,11 +115,11 @@ realtime_vlm_system/
 |   |   ├── test/        # 训练集图片
 |   |   ├── train/       # 验证集图片
 |   |   └── valid/       # 测试集图片
-|   ├── labels/          # YOLOv8 标签目录
+|   ├── labels/          # yolo 标签目录
 |   |   ├── test/        # 训练集标签
 |   |   ├── train/       # 验证集标签
 |   |   └── valid/       # 测试集标签
-│   └── classes.txt      # YOLOv8 类别文件
+│   └── classes.txt      # yolo 类别文件
 ├── logs/                # 日志目录
 ├── models/              # 数据模型
 │   └── detection_result.py # 检测结果模型
@@ -141,7 +141,7 @@ realtime_vlm_system/
 
 | 参数 | 说明 | 默认值 | 备注 |
 | --- | --- | --- | --- |
-`MODEL_PATH` | YOLOv8模型文件路径 | - | 必须配置
+`MODEL_PATH` | yolo模型文件路径 | - | 必须配置
 `CAMERA_INDEX` | 摄像头设备索引 | 0 | 通常为 0 或 1
 `ANALYSIS_INTERVAL` | Qwen分析间隔 | 5 | 单位：秒
 `QWEN_API_KEY` | Qwen API 密钥 | - | 必须配置
@@ -204,7 +204,7 @@ realtime_vlm_system/
 ## 🙏 免责声明
 本项目仅供学习和研究使用，开发者不对任何因使用本项目而导致的损失承担责任。包括：
 
-- **YoloV8**
+- **yolo**
 - **qwen-vl-max**
 - **Python-OpenCV**
 
